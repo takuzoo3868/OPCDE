@@ -19,3 +19,12 @@ OPCDE DXB 2017 Materials (26-27 April 2017)
 * Stranger Danger - Mohamed Saher (@halsten), Ahmed Garhy (@9ee1), Nikita Tarakanov (@NTarakanov)
 * Lighting Talk
     * Our Financial System is under Attack - Matt Suiche (@msuiche) & @x0rz
+
+## Synchronize with original
+```bash
+git remote add upstream https://github.com/comaeio/OPCDE.git
+git fetch upstream
+git checkout
+git merge upstream/master
+```
+
